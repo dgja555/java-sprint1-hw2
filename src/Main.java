@@ -17,7 +17,7 @@ public class Main {
             int command = scanner.nextInt();
 
             if (command == 1) {
-                System.out.println("Выберите, за какой месяц вы хотите ввести шаги: ");
+                System.out.println("Выберите за какой месяц вы хотите ввести шаги: ");
                 for (int month = 0; month < months.length; month++) {
                     System.out.println((month + 1) + " - " + months[month]);
                 }
